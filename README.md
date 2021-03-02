@@ -1,3 +1,6 @@
+# A Simple webpage challenge
+#100DaysOfCode #1/100
+
 # Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
