@@ -1,5 +1,6 @@
-# A Simple webpage challenge
-#100DaysOfCode #1/100
+# A Very Simple webpage challenge
+[#100DaysOfCode](https://www.100daysofcode.com/) 
+#1/100
 
 # Frontend Mentor - Easybank landing page
 
