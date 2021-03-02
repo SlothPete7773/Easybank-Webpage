@@ -8,6 +8,13 @@
   <link rel="stylesheet" href="./output.css">
   <title>Frontend Mentor | Easybank landing page</title>
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+  <style>
+    * {
+      font-family: 'Public Sans', sans-serif;
+    }
+  </style>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
@@ -16,6 +23,39 @@
 </head>
 <body>
 
+  <header>
+    <nav class="flex justify-between p-5 z-10">
+      <a href="/">
+        <img src="./images/logo.svg" alt="Easybank Logo" class="">
+      </a>
+      <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </a>
+      
+      <div >
+        <ul class="text-sm flex text-gray-400">
+          <li><a href="#" class="">Home</a></li>
+          <li><a href="#" class="ml-6">About</a></li>
+          <li><a href="#" class="ml-6">Contact</a></li>
+          <li><a href="#" class="ml-6">Blog</a></li>
+          <li><a href="#" class="ml-6">Careers</a></li>
+        </ul>
+      </div>
+
+      <button class="rounded-full bg-blue-800 py-3 px-6  text-">Request Invite</button>
+    </nav>
+    
+  </header>
+
+  <!-- <div class="">
+    <img src="./images/image-mockups.png" alt="App Mockup" class="px-4 relative -top-10 ">
+  </div> -->
+
+  <div class="bg-blue-300 h-screen"></div>
+
+  <!-- 
   Home
   About
   Contact
@@ -91,11 +131,15 @@
 
   Request Invite
 
-  © Easybank. All Rights Reserved
+  © Easybank. All Rights Reserved 
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div>
+
+  -->
+
+  <script src="./app.js"></script>
 </body>
 </html>
