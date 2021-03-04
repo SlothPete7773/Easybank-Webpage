@@ -10,6 +10,7 @@ Currently practicing developing webpage from example by using TailwindCSS
 
 ## Day 2/100
 - Added navbar animation when in mobile
+
 To be honest, it was very SIMPLE but this took me couple of hours. I am not feeling discouraged yet, I feel amazed when I did it though.
 
 It was like, 'wow, finally...'
