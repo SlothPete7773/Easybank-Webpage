@@ -29,7 +29,7 @@
         <img src="./images/logo.svg" alt="Easybank Logo" class="">
       </a>
       <a href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" id="hamburger-menu" onclick="hamburgerMenu()" class="h-6 sm:hidden isOpen" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg xmlns="http://www.w3.org/2000/svg" id="hamburger-menu" onclick="hamburgerMenu()" class="h-6 sm:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path id="hamburger" class="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           <path id="cross" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
@@ -48,8 +48,8 @@
 
       <button class=" py-3 px-6 hidden sm:inline rounded-full bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold hover:opacity-75">Request Invite</button>
     </nav>
-    <div id="overlay" class="fixed w-screen h-screen bg-gradient-to-b from-gray-400 to-transparent "></div>
-    <div id="hamburger-content" class="absolute mx-auto my-7 w-4/6 inset-x-0 shadow-lg">
+    <div id="overlay" class="fixed w-screen h-screen bg-gradient-to-b from-gray-400 to-transparent hidden sm:hidden"></div>
+    <div id="hamburger-content" class="absolute mx-auto my-7 w-4/6 inset-x-0 shadow-lg hidden sm:hidden">
       <div class="flex flex-col items-stretch bg-white rounded-lg">
         <a href="" class="pt-3 pb-2 text-center rounded-t-lg focus:bg-gray-300">Home</a>
         <a href="" class="mt-1 py-2 text-center focus:bg-gray-300">About</a>
