@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 .nav-btn {
-  @apply ml-6 py-8 border-b-4 border-white hover:border-green-500 duration-300
+  @apply ml-6 py-8 border-b-4 border-white hover:border-green-500 hover:text-black duration-300;
 }

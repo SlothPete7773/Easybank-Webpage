@@ -31842,7 +31842,7 @@ video {
 
 .nav-btn {
   --tw-border-opacity: 1;
-  border-color: rgba(255, 255, 255, var(--tw-border-opacity))
+  border-color: rgba(255, 255, 255, var(--tw-border-opacity));
 }
 
 .nav-btn:hover {
@@ -31855,6 +31855,14 @@ video {
   margin-left: 1.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.nav-btn:hover {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
+}
+
+.nav-btn {
   transition-duration: 300ms;
 }
 

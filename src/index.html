@@ -23,48 +23,53 @@
 </head>
 <body>
 
-  <header>
-    <nav class="flex justify-between items-center p-5 px-6 z-10">
+  <header class="sticky top-0">
+    <nav class="flex justify-between items-center p-5 px-6 bg-white">
       <a href="/">
         <img src="./images/logo.svg" alt="Easybank Logo" class="">
       </a>
       <a href="#">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 sm:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        <svg xmlns="http://www.w3.org/2000/svg" id="hamburger-menu" onclick="hamburgerMenu()" class="h-6 sm:hidden isOpen" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path id="hamburger" class="" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          <path id="cross" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
         </svg>
+        
       </a>
       
       <div class="hidden sm:block text-sm text-gray-500">
         <ul class="flex">
-          <li><a href="#" class="nav-btn hover:text-black">Home</a></li>
-          <li><a href="#" class="nav-btn hover:text-black">About</a></li>
-          <li><a href="#" class="nav-btn hover:text-black">Contact</a></li>
-          <li><a href="#" class="nav-btn hover:text-black">Blog</a></li>
-          <li><a href="#" class="nav-btn hover:text-black">Careers</a></li>
-        </ul>
+          <li><a href="#" class="nav-btn">Home</a></li>
+          <li><a href="#" class="nav-btn">About</a></li>
+          <li><a href="#" class="nav-btn">Contact</a></li>
+          <li><a href="#" class="nav-btn">Blog</a></li>
+          <li><a href="#" class="nav-btn">Careers</a></li>
+        </ul> 
       </div>
 
       <button class=" py-3 px-6 hidden sm:inline rounded-full bg-gradient-to-r from-green-500 to-blue-500 text-white font-bold hover:opacity-75">Request Invite</button>
     </nav>
+    <div id="overlay" class="fixed w-screen h-screen bg-gradient-to-b from-gray-400 to-transparent "></div>
+    <div id="hamburger-content" class="absolute mx-auto my-7 w-4/6 inset-x-0 shadow-lg">
+      <div class="flex flex-col items-stretch bg-white rounded-lg">
+        <a href="" class="pt-3 pb-2 text-center rounded-t-lg focus:bg-gray-300">Home</a>
+        <a href="" class="mt-1 py-2 text-center focus:bg-gray-300">About</a>
+        <a href="" class="mt-1 py-2 text-center focus:bg-gray-300">Contact</a>
+        <a href="" class="mt-1 py-2 text-center focus:bg-gray-300">Blog</a>
+        <a href="" class="mt-1 pt-2 pb-3 text-center rounded-b-lg focus:bg-gray-300">Careers</a>
+      </div>
+    </div>
     
+
+     
   </header>
 
   <!-- <div class="">
     <img src="./images/image-mockups.png" alt="App Mockup" class="px-4 relative -top-10 ">
   </div> -->
 
-  <div class="bg-blue-300 h-screen"></div>
+  
 
-  <!-- 
-  Home
-  About
-  Contact
-  Blog
-  Careers
-
-  Request Invite
-
-
+  
 
   Next generation digital banking
 
@@ -95,6 +100,29 @@
   Open API
   Manage your savings, investments, pension, and much more from one account. Tracking 
   your money has never been easier.
+ 
+
+  Latest Articles
+
+  By Claire Robinson
+  Receive money in any currency with no fees
+  The world is getting smaller and we’re becoming more mobile. So why should you be 
+  forced to only receive money in a single …
+
+  By Wilson Hutton
+  Treat yourself without worrying about money
+  Our simple budgeting feature allows you to separate out your spending and set 
+  realistic limits each month. That means you …
+
+  By Wilson Hutton
+  Take your Easybank card wherever you go
+  We want you to enjoy your travels. This is why we don’t charge any fees on purchases 
+  while you’re abroad. We’ll even show you …
+
+  By Claire Robinson
+  Our invite-only Beta accounts are now live!
+  After a lot of hard work by the whole team, we’re excited to launch our closed beta. 
+  It’s easy to request an invite through the site ...
 
   
 
