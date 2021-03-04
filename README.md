@@ -4,6 +4,19 @@
 
 Currently practicing developing webpage from example by using TailwindCSS
 
+# Progress Log
+
+*Disclaimer* I forgot to write progress in the 1st day, so the note starts on the 2nd day.
+
+## Day 2/100
+- Added navbar animation when in mobile
+To be honest, it was very SIMPLE but this took me couple of hours. I am not feeling discouraged yet, I feel amazed when I did it though.
+
+It was like, 'wow, finally...'
+### Summary
+Today I learn how to do open/close action for navbar now. Hoping that I will be able to do it BETTER next time.
+
+
 
 # Frontend Mentor - Easybank landing page
 
