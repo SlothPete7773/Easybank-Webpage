@@ -17,7 +17,13 @@ It was like, 'wow, finally...'
 ### Summary
 Today I learn how to do open/close action for navbar now. Hoping that I will be able to do it BETTER next time.
 
+## Day 3/100
+- Add mockup ofthe rest of the page
 
+I skip this for a few days due to OVERLOAD of works, and tomorrow probably gonna be the same too, exam is coming, and there are many unfinished task, books haven't read, damnit.
+
+### Summary
+Today I struggle to create a '1 level more' and it is a MESS. No, I must calm myself, I only practice for hours, not days, it is still a beginning.
 
 # Frontend Mentor - Easybank landing page
 
