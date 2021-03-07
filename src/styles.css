@@ -5,3 +5,38 @@
 .nav-btn {
   @apply ml-6 py-8 border-b-4 border-white hover:border-green-500 hover:text-black duration-300;
 }
+/* 
+.hero_bg {
+  position: relative;
+  background-image: url('./images/bg-intro-mobile.svg');
+  min-height: 17.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+
+.hero_mock {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/image-mockups.png);
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+
+
+@media only screen and (min-width: 412px) {
+  .hero_bg {
+    position: relative;
+    background-image: url('./images/bg-intro-desktop.svg');
+    min-height: 17.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+  } */
+
+/* } */

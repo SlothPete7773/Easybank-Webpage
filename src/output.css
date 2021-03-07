@@ -555,9 +555,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 675px) {
+@media (min-width: 676px) {
   .container {
-    max-width: 675px;
+    max-width: 676px;
   }
 }
 
@@ -13943,7 +13943,7 @@ video {
 }
 
 .max-w-screen-sm {
-  max-width: 675px;
+  max-width: 676px;
 }
 
 .min-h-0 {
@@ -31866,14 +31866,50 @@ video {
   transition-duration: 300ms;
 }
 
-@media (min-width: 675px) {
+/* 
+.hero_bg {
+  position: relative;
+  background-image: url('./images/bg-intro-mobile.svg');
+  min-height: 17.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  
+}
+
+.hero_mock {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url(./images/image-mockups.png);
+  background-size: 93%;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+
+
+@media only screen and (min-width: 412px) {
+  .hero_bg {
+    position: relative;
+    background-image: url('./images/bg-intro-desktop.svg');
+    min-height: 17.5rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+  } */
+
+/* } */
+
+@media (min-width: 676px) {
   .sm\:container {
     width: 100%;
   }
 
-  @media (min-width: 675px) {
+  @media (min-width: 676px) {
     .sm\:container {
-      max-width: 675px;
+      max-width: 676px;
     }
   }
 
@@ -45259,7 +45295,7 @@ video {
   }
 
   .sm\:max-w-screen-sm {
-    max-width: 675px;
+    max-width: 676px;
   }
 
   .sm\:min-h-0 {

@@ -3,7 +3,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
-      'sm': '675px',
+      'sm': '676px',
     },
     linearBorderGradients: {
       directions: { // defaults to these values
