@@ -25,6 +25,24 @@ I skip this for a few days due to OVERLOAD of works, and tomorrow probably gonna
 ### Summary
 Today I struggle to create a '1 level more' and it is a MESS. Having no idea of how which attribute will change how the element display made it really tiresome, I tried this and that, and none worked.  No, I must calm myself, I only practice for hours, not days, it is still a beginning.
 
+## Dday 4/100
+- Add detail of the rest of the page
+
+Today I finally manage to make the page looks similar to the example, though not entirely similar. Turns out I create a simple looking page, however, the inside is rotten, messed up, miserable, and hopeless. 
+
+It is very confusing with creating layout of the page, truly, I have no idea when it is 1 step upper of CSS Layout. 
+
+Atleast I manage to make it look like the one, but just OUTSIDE, and do not dare change the screen size, I hit your hand if you do, please do not, I beg you.
+
+### Summary
+To sum up for what I have done, I can say that I have created the living monster, a disgusting creature, an abomination that should not exist on the Internet.
+
+But it is for education, so I will not count. 
+
+Learning is never easy, I know, it takes a long time to be good at something, and yes I said that so I can excuse myself for being sucks.
+
+I will call it for now, if I can do something more, perhaps I might come back here and change how things are.
+
 # Frontend Mentor - Easybank landing page
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
