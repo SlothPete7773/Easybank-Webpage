@@ -63,15 +63,18 @@
   </header>
 
   <section class="bg-gray-50">
-    <div class="sm:flex">
-      <!-- <div class="bg-cover bg-no-repeat bg-center sm:bg-right" style="background-image: url('./images/bg-intro-mobile.svg'); min-height: 17.5rem;">
-        <img src="./images/bg-intro-mobile.svg" class="relative">
-        <img src="./images/image-mockups.png" class="absolute -top-36 bottom-0 z-10 sm: sm:-right-10 sm:top-0">
-      </div> -->
+    <div class="sm:flex flex-row-reverse justify-between">    
+      <div class="z-0 h-72 bg-cover bg-center bg-no-repeat sm:hidden" style="background-image: url('./images/bg-intro-mobile.svg');">
+        <img src="./images/image-mockups.png" alt="" class="w-full mx-auto relative -top-56">
+      </div>
+      <div class="hidden sm:contents h-72 bg-cover bg-center bg-no-repeat" style="background-image: url('./images/bg-intro-desktop.svg');">
+        <img src="./images/image-mockups.png" class="w-48 mx-auto relative -top-56">
+      </div>
       
       
-      <div class="flex flex-col justify-center items-center px-9 pb-20 sm:w-2/6 sm:ml-28 mt-28 sm:pl-0 sm:items-start">
-        <div class="text-5xl text-center mb-4 mt-6 sm:text-left sm:mb-5">Next generation digital banking</div>
+
+      <div class="flex flex-col justify-center items-center px-9 pb-20 sm:w-2/6 sm:ml-28 sm:mt-28 sm:pl-0 sm:items-start">
+        <div class="text-3xl text-center mb-4 sm:mt-6 sm:text-left sm:mb-5 sm:text-5xl">Next generation digital banking</div>
         <p class="text-center text-sm mb-8 sm:text-left  sm:text-lg sm:text-gray-500">Take your financial life online. Your Easybank account will be a one-stop-shop 
           for spending, saving, budgeting, investing, and much more.</p>
         <button class="py-3 px-6 rounded-full bg-gradient-to-r from-green-500 to-blue-500 text-white hover:opacity-75">Request Invite</button>
